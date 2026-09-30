@@ -14,16 +14,20 @@
   <meta name="apple-mobile-web-app-title" content="KB Fit">
   <meta name="theme-color" content="#111827">
 
-  <!-- Manifiesto PWA para Android -->
-  <link rel="manifest" href='data:application/manifest+json,{"name":"KB Fit","short_name":"KB Fit","start_url":".","display":"standalone","background_color":"#ffffff","theme_color":"#111827","icons":[{"src":"https://drive.google.com/uc?export=view&id=13uy6EfOuzrMYVYvfCs8pkyohORa2p19v","sizes":"192x192 512x512","type":"image/jpeg"}]}'>
-
-  <!-- Redirección automática a la Web App de KB Fit -->
-  <script>
-    window.location.replace("https://script.google.com/macros/s/AKfycbz69h_cEdfO_bCOwAFkW1qm8QNdiuhL_b1grGDPdn3iByLOJVqaejJTu9z5ZHGWkHH_ZA/exec");
-  </script>
+  <!-- Manifiesto PWA para Android Chrome -->
+  <link rel="manifest" href='data:application/manifest+json,{"name":"KB Fit","short_name":"KB Fit","start_url":".","display":"standalone","background_color":"#111827","theme_color":"#111827","icons":[{"src":"https://drive.google.com/uc?export=view&id=13uy6EfOuzrMYVYvfCs8pkyohORa2p19v","sizes":"192x192 512x512","type":"image/jpeg","purpose":"any maskable"}]}'>
 </head>
-<body style="background-color: #111827; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif;">
-  <p>Cargando KB Fit...</p>
+<body style="background-color: #111827; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; text-align: center; padding: 20px;">
+
+  <img src="https://drive.google.com/uc?export=view&id=13uy6EfOuzrMYVYvfCs8pkyohORa2p19v" alt="Logo KB Fit" style="width: 120px; height: 120px; border-radius: 20px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+
+  <h2 style="margin-bottom: 10px;">KB Fit</h2>
+  <p style="color: #9ca3af; font-size: 14px; margin-bottom: 30px;">Agrega esta página a tu pantalla de inicio y luego presiona el botón para ingresar.</p>
+
+  <a href="https://script.google.com/macros/s/AKfycbz69h_cEdfO_bCOwAFkW1qm8QNdiuhL_b1grGDPdn3iByLOJVqaejJTu9z5ZHGWkHH_ZA/exec" 
+     style="background-color: #2563eb; color: white; text-decoration: none; padding: 14px 28px; border-radius: 10px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+     Abrir Aplicación
+  </a>
+
 </body>
 </html>
-
